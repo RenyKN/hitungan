@@ -545,7 +545,6 @@ img.aligncenter {
 	position: relative;
 	width: 590px;
 	margin: 0px auto 20px auto;
-	
 }
 
 #slider .viewer {
@@ -575,8 +574,8 @@ img.aligncenter {
 #slider {
 	position: relative;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: center;
+	margin-right: center;
 	width: 1000px;
 	height: 350px;
 }
