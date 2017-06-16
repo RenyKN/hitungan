@@ -563,6 +563,7 @@ img.aligncenter {
 	position: relative;
 	width: 590px;
 	height: 300px;
+	
 }
 
 #splash {
@@ -609,6 +610,9 @@ img.aligncenter {
 	width: 900px;
 	height: 375px;
 	margin: 0px auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #slider .viewer .reel h2 {
