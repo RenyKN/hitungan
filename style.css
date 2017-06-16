@@ -541,12 +541,6 @@ img.aligncenter {
 	text-decoration: underline;
 }
 
-#slider {
-	position: relative;
-	padding: 0px;
-	width: 590px;
-	margin: 0px auto 30px auto;
-}
 
 #slider .viewer {
 	width: 590px;
