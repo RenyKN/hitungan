@@ -574,8 +574,7 @@ img.aligncenter {
 #slider {
 	position: relative;
 	display: block;
-	margin-left: center;
-	margin-right: center;
+	margin: 0px auto 30px auto;
 	width: 1000px;
 	height: 350px;
 }
