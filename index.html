@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Kuis Perhitungan Dasar</title>
+  <link href="http://fonts.googleapis.com/css?family=Abel|Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">Belajar Berhitung</a></h1>
+				<p>Desain dibuat oleh <a href="http://templated.co" rel="nofollow">Reny Kartika Ningtyas</a></p>
+			</div>
+		</div>
+		<div id="menu-wrapper">
+			<ul id="menu">
+				<li class="current_page_item"><a href="#"><span>Kuis</span></a></li>
+				<li><span></span>
+					<ul>
+						<li class="first"> <a href="index"></a> </li>
+						<li> <a href="search"></a> </li>
+						<li class="last"> <a href="about"></a> </li>
+					</ul>
+				</li>
+				<li><a href="#"><span></span></a></li>
+				<li><a href="#"><span></span></a></li>
+				<li><span></span>
+					<ul>
+						<li class="first"> <a href="index"></a> </li>
+						<li> <a href="search"></a> </li>
+						<li class="last"> <a href="about"></a> </li>
+					</ul>
+				</li>
+				<li><a href="#"><span></span></a></li>
+			</ul>
+			<script type="text/javascript">
+			$('#menu').dropotron();
+		</script> 
+		</div>
+		<div id="banner">
+			<div id="slider"> <a href="#" class="button previous-button">&lt;</a> <a href="#" class="button next-button">&gt;</a>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							<h2>saya bisa matematika</h2>
+							<p>saya hebat</p>
+							<a class="link" href="#">Full story ...</a><img src="images/img01.jpg" width="900" height="350" alt="" /></div>
+						<div class="slide">
+							<h2>kelas 2</h2>
+							<p>SD Negeri 1 Tegalwangi</p>
+							<a class="link" href="#">Full story ...</a><img src="images/img01.jpg" width="900" height="350" alt="" /></div>
+					</div>
+				</div>
+				<div class="indicator">
+					<ul>
+						<li class="active">1</li>
+						<li>2</li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow',
+					navPreviousSelector: '.previous-button',
+					navNextSelector: '.next-button',
+					indicatorSelector: '.indicator ul li',
+					slideLinkSelector: '.link'
+				});
+			</script> 
+		</div>
+	</div>
+  <body>
+  <h2 class="quizHeader"><marquee>Pilihan Ganda</marquee></h2>
+    
+	<table style="width:883px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. Perjumlahan 2 + 3 = ?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">5</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>2</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2. Pengurangan 10 - 5 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>7</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">5</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>8</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. Perkalian 2 x 2 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>5</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>2</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4. Pembagian 8 : 2 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>5</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>3</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">5. Perjumlahan dan Pengurangan 4 + 1 - 2 = ?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q5" value="1">
+	        <label id="correctString5">3</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>1</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>6</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">6. Perkalian 2 x 2 x 2 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>5</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="1">
+	        <label id="correctString6">8</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>2</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">7. Pembagian 12 : 2 : 2 = ?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q7" value="1">
+	        <label id="correctString7">3</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>1</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>4</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">8. Perkalian & Pengurangan 2 x 2 - 2 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="1">
+	        <label id="correctString8">2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>8</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">9. Perjumlahan & Pembagian 4 + 2 : 2 = ?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q9" value="1">
+	        <label id="correctString9">3</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>1</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>2</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">10. Pengurangan & pembagian 8 - 4 : 2 = ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>8</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="1">
+	        <label id="correctString10">2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>1</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+	<div class="quizAnswers" id="correctAnswer5"></div>
+	<div class="quizAnswers" id="correctAnswer6"></div>
+	<div class="quizAnswers" id="correctAnswer7"></div>
+	<div class="quizAnswers" id="correctAnswer8"></div>
+	<div class="quizAnswers" id="correctAnswer9"></div>
+	<div class="quizAnswers" id="correctAnswer10"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+</body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
